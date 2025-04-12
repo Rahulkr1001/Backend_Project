@@ -1,13 +1,28 @@
 {
-  "name":"backened_series",
-  "version":"1.0.0",
-  "description":"a backend of youtube channel",
-  "type":"module",
-  "main":"index.js",
-  "scripts":{"dev":"nodemon src/index.js"},
-  "keywords":["javascript","backend","chai"],
-  "author":"rahul",
-  "license":"ISC",
-  "dependencies":{"touch":"^3.1.1"},
-  "devDependencies":{"nodemon":"^3.1.9"}
+  "name": "backened_series",
+  "version": "1.0.0",
+  "description": "a backend of youtube channel",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "author": "rahul",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.5.3",
+    "touch": "^3.1.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
+    "nodemon": "^3.1.9"
+  }
 }
